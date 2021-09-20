@@ -21,9 +21,9 @@ drawings:
   persist: false
 ---
 
-# Welcome to Slidev
+# GitHub WorkShop
 
-Presentation slides for developers
+Version Control for Economists
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -44,6 +44,144 @@ Presentation slides for developers
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
+
+---
+
+# Why Do People Use Git?
+
+
+---
+
+# Is Git Easy?
+No. I am sorry.
+
+
+
+---
+
+# Local & Remote Repository
+
+---
+
+# Commit Is a Save Point!
+
+
+---
+
+# HEAD and Branch
+
+
+---
+
+# Merge
+
+
+---
+layout: center
+class: text-center
+---
+
+# Git & GitHub Workflow
+
+---
+
+# 1. Sync Local Repository
+
+```shell
+git checkout main
+git pull origin main
+```
+
+
+
+
+---
+
+# 2. Write Your Codes
+After checkout to new developping branch
+```shell
+git checkout -b "hoge"
+```
+
+Write your codes.
+
+
+
+---
+
+# 3. Commit
+At a good saving point
+```shell
+git add .
+git commit -m "hogehoge"
+```
+
+If you want to stage only specific files, ```git add foo1.txt foo2.txt```
+
+
+
+---
+
+# 4. Push, Pull Request and Merge
+- Push to the developing branch in remote repository
+```shell
+git push origin hoge
+```
+- Create a Pull Request
+- Confirm merge
+- Delte branch
+
+
+
+
+---
+
+# 5. Sync Local Repository and Delete Developing Branch
+```shell
+git checkout main
+git pull origin main
+git branch -d hoge
+```
+
+---
+layout: center
+class: text-center
+---
+
+# Let's Handson
+
+
+---
+
+# What is DVC?
+
+---
+# How Does DVC Work?
+
+
+---
+# DVC Commands
+```
+dvc add foo1.csv
+```
+You can specify folder with *-R* option ```dvc add -R data```
+
+
+
+```
+dvc push
+```
+
+```
+dvc pull
+```
+
+---
+layout: center
+class: text-center
+---
+# Let's Handson
+
 
 ---
 

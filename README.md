@@ -59,3 +59,8 @@ git checkout main
 git pull origin main
 git branch -d hoge
 ```
+
+### 6. Push to DVC Remote Storage
+```
+dvc push
+```
