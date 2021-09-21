@@ -61,6 +61,8 @@ No. I am sorry.
 
 # Local & Remote Repository
 
+![Local Image](/drawio/git_repository.svg)
+
 ---
 
 # Commit Is a Save Point!
@@ -83,11 +85,18 @@ No. I am sorry.
 
 # HEAD and Branch
 
+- Branch : a label of commit
+- HEAD : the branch you are seeing
+
+![Local Image](/drawio/git_branch.svg)
+
+
 
 ---
 
 # Merge
 
+![Local Image](/drawio/git_merge.svg)
 
 ---
 layout: center
