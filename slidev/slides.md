@@ -65,19 +65,19 @@ No. I am sorry.
 
 # Commit Is a Save Point!
 
-![Local Image](/img/git_history.svg)
+![Local Image](/drawio/git_history.svg)
 
 ---
 
 # You Can Go Back to Any Commit
 
-![Local Image](/img/git_back.svg)
+![Local Image](/drawio/git_back.svg)
 
 
 ---
 
 # You Can Compare Any Two Commits
-![Local Image](/img/git_compare.svg)
+![Local Image](/drawio/git_compare.svg)
 
 ---
 
