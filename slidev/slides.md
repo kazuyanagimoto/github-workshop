@@ -49,12 +49,23 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # Why Do People Use Git?
 
+- 📝 **Recording** - take logs of all coding activity of you and your collaborators
+- 🕒 **Restorable** - go back to a previous version of codes
+- 🔍 **Comparable** - focus on the change in the codes, and detect bugs
+- 🔀 **Branch** - seperate things complete and things under development
 
 ---
 
 # Is Git Easy?
-No. I am sorry.
 
+**No. I am sorry.**
+- Git has many commands with many options
+- Need some knowledge to recover in a trouble
+- Git allows various styles to use, which are different across people and organization
+
+**I propose**
+- First follow my workflow, which require the minumum knowledge
+- Once you're comfortable with it, learn the detail
 
 
 ---
