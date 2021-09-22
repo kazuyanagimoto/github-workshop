@@ -185,23 +185,41 @@ class: text-center
 
 # What is DVC?
 
+## *How Can We Work with Data in Git?*
+- We want to store the data in the Git project (beacuse refered in the code)
+- Not interested in change in each lineine of the data (imagine data cleaning)
+- There is a limit for the file size in GitHub (100 MB)
+
+## *How Does DVC Work?*
+- Create a text file for the meta information of the data
+- Git manages only the text file
+- Git can follow when the data is added, modified, deleted through the text file
+- The original data is stored in the remote storage (Google Drive, Amazon S3, ..)
+
 ---
+
 # How Does DVC Work?
 
+![Local Image](/drawio/dvc.svg)
 
 ---
+
 # DVC Commands
+
+### 1. Before your commit, create DVC files
 ```
 dvc add foo1.csv
 ```
 You can specify folder with *-R* option ```dvc add -R data```
 
-
-
+### 2. After Git push, push data to the remote storage
 ```
 dvc push
 ```
 
+<br>
+
+### 3. After Git pull, pull data from the remote storage
 ```
 dvc pull
 ```
