@@ -114,7 +114,7 @@ git checkout main
 git pull origin main
 ```
 
-
+![Local Image](/drawio/wf_pull.svg)
 
 
 ---
@@ -122,48 +122,56 @@ git pull origin main
 # 2. Write Your Codes
 After checkout to new developping branch
 ```shell
-git checkout -b "hoge"
+git checkout -b "dev"
 ```
 
-Write your codes.
+Write your codes
 
-
+![Local Image](/drawio/wf_branch.svg)
 
 ---
 
 # 3. Commit
 At a good saving point
 ```shell
-git add .
+git add foo1.txt foo2.txt
 git commit -m "hogehoge"
 ```
 
-If you want to stage only specific files, ```git add foo1.txt foo2.txt```
+If you want to stage all modified files, ```git add .```
 
-
+![Local Image](/drawio/wf_commit.svg)
 
 ---
 
-# 4. Push, Pull Request and Merge
-- Push to the developing branch in remote repository
+# 4. Push to the Developing Branch in the Remote Repository
 ```shell
 git push origin hoge
 ```
-- Create a Pull Request
-- Confirm merge
-- Delte branch
-
-
+![Local Image](/drawio/wf_push.svg)
 
 
 ---
 
-# 5. Sync Local Repository and Delete Developing Branch
-```shell
-git checkout main
-git pull origin main
-git branch -d hoge
-```
+# 5. Pull Request and Merge
+
+![Local Image](/drawio/wf_pr.svg)
+
+---
+
+# Questions about Branches
+
+## *Why Do We Use Branch?*
+- Keep "main" branch clean
+- Easy to detect a bug (because "main" works perfectly)
+
+## *When Should I Create a Branch?*
+A simple suggestion is "feature branch workflow"
+- Create a branch if you want to add a new feature
+- For the economic research, model, slides, paper, and a BUG-FIX
+- Delete branch when it's done
+  - In remote repository, after the merge, the button appears
+  - In local repository, run ```git branch -d BRANCH_NAME```
 
 ---
 layout: center
