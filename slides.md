@@ -1,5 +1,6 @@
 ---
 theme: apple-basic
+colorSchema: dark
 layout: intro
 ---
 
@@ -298,4 +299,3 @@ class: text-center
 
 # Let's Handson
 
----
