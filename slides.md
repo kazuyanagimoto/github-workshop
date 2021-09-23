@@ -49,6 +49,42 @@ seperate things complete and things under development
 - Once you're comfortable with it, learn the detail
 
 ---
+layout: image-right
+image: ./img/Octocat.png
+---
+
+# Is GitHub Git?
+
+<br>
+
+## Git Is a Version Control Tool
+- App
+- Command Line
+- Works Locally
+
+## GitHub Is a Web-Service
+- Publish the code
+- Collaboration
+
+---
+
+# CUI vs GUI?
+
+<br>
+
+## GUI Applications for Git & GitHub
+- [GitHub Desktop](https://desktop.github.com/)
+- [VSCode](https://code.visualstudio.com/)
+- [Fork](https://git-fork.com/)
+
+## I propose
+
+- Hybrid way in VSCode
+- CUI knowledge is necessary for GUI
+
+
+
+---
 layout: section
 ---
 
@@ -234,20 +270,24 @@ layout: section
 <br>
 
 ## 1. Before your commit, create DVC files
-```
+
+```shell
 dvc add foo1.csv
 ```
+
 You can specify folder with *-R* option ```dvc add -R data```
 
 ## 2. After Git push, push data to the remote storage
-```
+
+```shell
 dvc push
 ```
 
 <br>
 
 ## 3. After Git pull, pull data from the remote storage
-```
+
+```shell
 dvc pull
 ```
 
