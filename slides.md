@@ -1,6 +1,7 @@
 ---
 theme: apple-basic
 colorSchema: dark
+download: true
 layout: intro
 ---
 
