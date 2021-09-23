@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="3Kqu5hoDcEIuTMSiTPuF" name="Page-1">
-        <mxGraphModel dx="1315" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1133" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -210,14 +210,14 @@
                 </mxCell>
                 <mxCell id="68" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="322.5" y="485.45" as="sourcePoint"/>
-                        <mxPoint x="570" y="570" as="targetPoint"/>
+                        <mxPoint x="300" y="490" as="sourcePoint"/>
+                        <mxPoint x="620" y="600" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="69" value="" style="endArrow=classic;html=1;fontSize=12;strokeColor=#00CC00;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="440" y="710" as="sourcePoint"/>
-                        <mxPoint x="710" y="490" as="targetPoint"/>
+                        <mxPoint x="450" y="710" as="sourcePoint"/>
+                        <mxPoint x="704" y="490" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="70" value="" style="endArrow=classic;html=1;fontSize=12;strokeColor=#00CC00;" parent="1" edge="1">
@@ -230,10 +230,13 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="71" value="dvc push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=17;fontColor=#00CC00;" parent="1" vertex="1">
-                    <mxGeometry x="420" y="624.5" width="95" height="20" as="geometry"/>
+                    <mxGeometry x="399.5" y="604.5" width="95" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="dvc pull" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=17;fontColor=#00CC00;" parent="1" vertex="1">
                     <mxGeometry x="806" y="520" width="95" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="71" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
