@@ -11,7 +11,7 @@ Version Control for Economists
 
 <div class="absolute bottom-10">
   <span class="font-700">
-    Kazuharu Yanagimoto <br>
+    Kazuharu Yanagimoto <br><br>
     September 24, 2021
   </span>
 </div>

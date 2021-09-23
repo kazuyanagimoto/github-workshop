@@ -13,7 +13,7 @@
                 <mxCell id="10" value="Stage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="30" y="240" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="foo1.txt" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;fillColor=none;" parent="1" vertex="1">
+                <mxCell id="11" value="foo1.txt" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="220" y="245" width="21" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=20;strokeColor=#FFFFFF;strokeWidth=2;" parent="1" edge="1">
