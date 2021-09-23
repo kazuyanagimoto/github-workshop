@@ -1,5 +1,9 @@
 # CEMFI GitHub Workshop
 
+## Slides
+- [HTML](https://nicetak.github.io/github-workshop/)
+- [PDF](https://nicetak.github.io/github-workshop/slidev-exported.pdf)
+
 ## Preparation
 1. Create GitHub Account 
 1. Download the following tools
