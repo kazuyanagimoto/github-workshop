@@ -50,7 +50,7 @@ seperate things complete and things under development
 
 ---
 layout: image-right
-image: ./img/Octocat.png
+image: /img/Octocat.png
 ---
 
 # Is GitHub Git?
