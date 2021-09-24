@@ -33,7 +33,7 @@ go back to a previous version of codes
 focus on the change in the codes, and detect bugs
 
 ## 🔀 **Branch**
-seperate things complete and things under development
+separate things complete and things under development
 
 ---
 
@@ -43,11 +43,11 @@ seperate things complete and things under development
 
 ## No. I am sorry.
 - Git has many commands with many options
-- Need some knowledge to recover in a trouble
+- Need some knowledge to recover from a trouble
 - Git allows various styles to use, which are different across people and organization
 
 ## I propose
-- First follow my workflow, which require the minumum knowledge
+- First follow my workflow, which requires the minimum knowledge
 - Once you're comfortable with it, learn the detail
 
 ---
@@ -127,8 +127,8 @@ layout: section
 
 # HEAD and Branch
 
-- Branch : a label of commit
-- HEAD : the branch you are seeing
+- Branch: a label of commit
+- HEAD: the branch you are seeing
 
 <br>
 <br>
@@ -145,6 +145,14 @@ layout: section
 <br>
 
 ![Local Image](/drawio/git_merge.svg)
+
+---
+layout: center
+class: text-center
+---
+
+# Let's Create a Repository
+
 
 ---
 layout: section
@@ -167,7 +175,7 @@ git pull origin main
 ---
 
 # 2. Write Your Codes
-After checkout to new developping branch
+After checkout to new developing branch
 ```shell
 git checkout -b "dev"
 ```
@@ -195,7 +203,7 @@ If you want to stage all modified files, ```git add .```
 
 # 4. Push to the Remote Repository
 ```shell
-git push origin hoge
+git push origin dev
 ```
 ![Local Image](/drawio/wf_push.svg)
 
@@ -249,12 +257,12 @@ layout: section
 <br>
 
 ## *How Can We Work with Data in Git?*
-- We want to store the data in the Git project (beacuse refered in the code)
-- Not interested in change in each lineine of the data (imagine data cleaning)
+- We want to store the data in the Git project (because referred in the code)
+- Not interested in change in each line of the data (imagine data cleaning)
 - There is a limit for the file size in GitHub (100 MB)
 
 ## *How Does DVC Work?*
-- Create a text file for the meta information of the data
+- Create a text file for the meta-information of the data
 - Git manages only the text file
 - Git can follow when the data is added, modified, deleted through the text file
 - The original data is stored in the remote storage (Google Drive, Amazon S3, ..)
@@ -277,7 +285,7 @@ layout: section
 dvc add foo1.csv
 ```
 
-You can specify folder with *-R* option ```dvc add -R data```
+You can specify a folder with *-R* option ```dvc add -R data```
 
 ## 2. After Git push, push data to the remote storage
 
@@ -300,3 +308,48 @@ class: text-center
 
 # Let's Handson
 
+---
+
+# Troubleshoot
+
+<br>
+
+## Git Reference log
+You can see all the git command activity
+
+```shell
+git reflog
+```
+
+<br>
+
+## Git Reset
+You can reset any git activity
+
+```shell
+git reset --soft COMMIT_ID_OR_REFLOG_ID
+```
+
+---
+
+# Conflict
+
+<br>
+
+Conflict might occur
+- When merge
+- If the main and development branches have different lines of codes in the same file
+
+To solve this
+- You can open a text editor
+- Choose which lines you keep
+
+
+---
+layout: center
+class: text-center
+---
+
+# Learn More
+[Introduction to Git](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/)・
+[Introduction to GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/)
